@@ -1,4 +1,5 @@
-var Exchange = require('peer-exchange')
+var Exchange = require('peer-exchange');
+const wrtc = require('wrtc');
 
 var ex = new Exchange('some-network-id', { wrtc: wrtc });
 // The network id can be any string unique to your network.
